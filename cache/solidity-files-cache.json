@@ -1,0 +1,429 @@
+{
+  "_format": "hh-sol-cache-2",
+  "files": {
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/AvacadoERC20.sol": {
+      "lastModificationDate": 1630261851381,
+      "contentHash": "9cfed357784884a250b9a377fae772a1",
+      "sourceName": "contracts/AvacadoERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IAvacadoERC20.sol",
+        "./libraries/SafeMath.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "AvacadoERC20"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/interfaces/IAvacadoERC20.sol": {
+      "lastModificationDate": 1630261851382,
+      "contentHash": "818e66636d2a9dd55cf36f71a118a406",
+      "sourceName": "contracts/interfaces/IAvacadoERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IAvacadoERC20"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/libraries/SafeMath.sol": {
+      "lastModificationDate": 1630261851378,
+      "contentHash": "a65356c329efeffba75210664f5df3cd",
+      "sourceName": "contracts/libraries/SafeMath.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "SafeMath"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/test/ERC20.sol": {
+      "lastModificationDate": 1630261851377,
+      "contentHash": "e173dfd38c06448d839a7e0711da4071",
+      "sourceName": "contracts/test/ERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../AvacadoERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "ERC20"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/AvacadoPair.sol": {
+      "lastModificationDate": 1630261851381,
+      "contentHash": "3c642746b4ad5f076940e6c5dd172b18",
+      "sourceName": "contracts/AvacadoPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IAvacadoPair.sol",
+        "./AvacadoERC20.sol",
+        "./libraries/Math.sol",
+        "./libraries/UQ112x112.sol",
+        "./interfaces/IERC20.sol",
+        "./interfaces/IAvacadoFactory.sol",
+        "./interfaces/IAvacadoCallee.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "AvacadoPair"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/interfaces/IAvacadoPair.sol": {
+      "lastModificationDate": 1630261851385,
+      "contentHash": "55e503b992303c140a3f5f2449d99f43",
+      "sourceName": "contracts/interfaces/IAvacadoPair.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IAvacadoPair"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/libraries/Math.sol": {
+      "lastModificationDate": 1630261851379,
+      "contentHash": "bee6c1959728d5d42c14151076cebd83",
+      "sourceName": "contracts/libraries/Math.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "Math"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/libraries/UQ112x112.sol": {
+      "lastModificationDate": 1630261851379,
+      "contentHash": "2a703244e9f645c6fb297a983ce7c9c4",
+      "sourceName": "contracts/libraries/UQ112x112.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "UQ112x112"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/interfaces/IERC20.sol": {
+      "lastModificationDate": 1630261851382,
+      "contentHash": "3d2b948a9266ee66b6e739de97c7e6e9",
+      "sourceName": "contracts/interfaces/IERC20.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IERC20"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/interfaces/IAvacadoFactory.sol": {
+      "lastModificationDate": 1630261851383,
+      "contentHash": "c011561cdf5303716a60ea0b0f73748c",
+      "sourceName": "contracts/interfaces/IAvacadoFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IAvacadoFactory"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/interfaces/IAvacadoCallee.sol": {
+      "lastModificationDate": 1630261851384,
+      "contentHash": "6351f565fc0a492bc95e5d2e0ffeb341",
+      "sourceName": "contracts/interfaces/IAvacadoCallee.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        ">=0.5.0"
+      ],
+      "artifacts": [
+        "IAvacadoCallee"
+      ]
+    },
+    "/Users/bus/Public/Dev/Solidity/Avacado/Core/contracts/AvacadoFactory.sol": {
+      "lastModificationDate": 1630261851380,
+      "contentHash": "f5514d4956f41c043d75819ffd8b3cc4",
+      "sourceName": "contracts/AvacadoFactory.sol",
+      "solcConfig": {
+        "version": "0.5.16",
+        "settings": {
+          "optimizer": {
+            "enabled": true,
+            "runs": 50
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IAvacadoFactory.sol",
+        "./AvacadoPair.sol"
+      ],
+      "versionPragmas": [
+        "=0.5.16"
+      ],
+      "artifacts": [
+        "AvacadoFactory"
+      ]
+    }
+  }
+}
