@@ -1,1 +1,12 @@
-node_modules
+scripts/
+test/
+cache/
+flatten/
+node_modules/
+43112/
+hardhat.config.js
+
+.idea
+.DS_Store
+
+.env
