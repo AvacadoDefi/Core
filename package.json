@@ -1,11 +1,11 @@
 {
   "name": "@avacadodefi/core",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "DeFi suite ecosystem powered by Avalanche",
   "homepage": "https://avacado.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/avacadoDefi/core"
+    "url": "https://github.com/avacadodefi/core"
   },
   "license": "GPL-3.0-or-later",
   "scripts": {
